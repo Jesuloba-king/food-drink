@@ -216,10 +216,6 @@ class _HomePageState extends State<HomePage> {
             //       );
             //     }),
 
-            // SizedBox(
-            //   height: 25,
-            // ),\
-
             // Text("Screen Size is : ${MediaQuery.of(context).size.width}"),
 
             //gridview builder
