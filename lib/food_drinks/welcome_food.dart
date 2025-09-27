@@ -103,10 +103,10 @@ class _FoodWelcomePageState extends State<FoodWelcomePage> {
 
             //button without icon
             GestureDetector(
-              onDoubleTap: () {
+              onTap: () {
                 Navigator.pushReplacement(context,
                     MaterialPageRoute(builder: (context) {
-                  return HomePage();
+                  return HomePage(); //LoginPage();
                 }));
               },
               child: Container(
